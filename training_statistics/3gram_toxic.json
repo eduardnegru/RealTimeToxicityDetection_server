@@ -1,0 +1,202 @@
+[
+	{
+		"train_ngram_text" : "united states america",
+		"count" : 50
+	},
+	{
+		"train_ngram_text" : "president united states",
+		"count" : 48
+	},
+	{
+		"train_ngram_text" :" black lives matter",
+		"count" : 47
+	},
+	{
+		"train_ngram_text" : "kim jong un",
+		"count" : 44
+	},
+	{
+		"train_ngram_text" : "year old girl",
+		"count" : 43
+	},
+	{
+		"train_ngram_text" : "12 year old",
+		"count" : 36
+	},
+	{
+		"train_ngram_text" : "whats best way",
+		"count" : 35
+	},
+	{
+		"train_ngram_text" : "ask stupid questions",
+		"count" : 33
+	},
+	{
+		"train_ngram_text" : "14 year old",
+		"count" : 33
+	},
+	{
+		"train_ngram_text" : "gun control advocates",
+		"count" : 32
+	},
+	{
+		"train_ngram_text" : "president donald trump",
+		"count" : 32
+	},
+	{
+		"train_ngram_text" : "year old boy",
+		"count" : 30
+	},
+	{
+		"train_ngram_text" : "think donald trump",
+		"count" : 30
+	},
+	{
+		"train_ngram_text" : "donald j trump",
+		"count" : 29
+	},
+	{
+		"train_ngram_text" : "hate black people",
+		"count" : 28
+	},
+	{
+		"train_ngram_text" : "13 year old",
+		"count" : 27
+	},
+	{
+		"train_ngram_text" : "year old son",
+		"count" : 27
+	},
+	{
+		"train_ngram_text" : "islam religion peace",
+		"count" : 26
+	},
+	{
+		"train_ngram_text" : "people still believe",
+		"count" : 25
+	},
+	{
+		"train_ngram_text" : "indian girls like",
+		"count" : 25
+	},
+	{
+		"train_ngram_text" : "like donald trump",
+		"count" : 24
+	},
+	{
+		"train_ngram_text" : "jew ever deny",
+		"count" : 23
+	},
+	{
+		"train_ngram_text" : "nobel peace prize",
+		"count" : 23
+	},
+	{
+		"train_ngram_text" : "dont believe god",
+		"count" : 23
+	},
+	{
+		"train_ngram_text" : "hate white people",
+		"count" : 23
+	},
+	{
+		"train_ngram_text" : "stupid questions quora",
+		"count" : 23
+	},
+	{
+		"train_ngram_text" : "white people think",
+		"count" : 22
+	},
+	{
+		"train_ngram_text" : "third world country",
+		"count" : 22
+	},
+	{
+		"train_ngram_text" : "causing black death",
+		"count" : 21
+	},
+	{
+		"train_ngram_text" : "social justice warriors",
+		"count" : 21
+	},
+	{
+		"train_ngram_text" : "long would take",
+		"count" : 21
+	},
+	{
+		"train_ngram_text" : "year old daughter",
+		"count" : 21
+	},
+	{
+		"train_ngram_text" : "new york city",
+		"count" : 21
+	},
+	{
+		"train_ngram_text" : "people united states",
+		"count" : 21
+	},
+	{
+		"train_ngram_text" : "deny causing black",
+		"count" : 20
+	},
+	{
+		"train_ngram_text" : "make america great",
+		"count" : 20
+	},
+	{
+		"train_ngram_text" : "ever deny causing",
+		"count" : 19
+	},
+	{
+		"train_ngram_text" : "people ask stupid",
+		"count" : 19
+	},
+	{
+		"train_ngram_text" : "many people quora",
+		"count" : 19
+	},
+	{
+		"train_ngram_text" : "15 year old",
+		"count" : 19
+	},
+	{
+		"train_ngram_text" : "like black people",
+		"count" : 19
+	},
+	{
+		"train_ngram_text" : "many stupid questions",
+		"count" : 19
+	},
+	{
+		"train_ngram_text" : "martin luther king",
+		"count" : 18
+	},
+	{
+		"train_ngram_text" : "north indian girls",
+		"count" : 17
+	},
+	{
+		"train_ngram_text" : "scientific procedure castration",
+		"count" : 17
+	},
+	{
+		"train_ngram_text" : "barack hussein obama",
+		"count" : 17
+	},
+	{
+		"train_ngram_text" : "would win fight",
+		"count" : 17
+	},
+	{
+		"train_ngram_text" : "12 years old",
+		"count" : 17
+	},
+	{
+		"train_ngram_text" : "want sex mom",
+		"count" : 16
+	},
+	{
+		"train_ngram_text" : "george w bush",
+		"count" : 16
+	}
+]

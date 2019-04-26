@@ -1,0 +1,202 @@
+[
+	{
+		"train_ngram_text" : "best",
+		"count" : 60993
+	},
+	{
+		"train_ngram_text" : "get",
+		"count" : 59316
+	},
+	{
+		"train_ngram_text" : "would",
+		"count" : 57303
+	},
+	{
+		"train_ngram_text" : "people",
+		"count" : 44746
+	},
+	{
+		"train_ngram_text" : "like",
+		"count" : 43842
+	},
+	{
+		"train_ngram_text" : "good",
+		"count" : 36638
+	},
+	{
+		"train_ngram_text" : "one",
+		"count" : 31495
+	},
+	{
+		"train_ngram_text" : "india",
+		"count" : 28967
+	},
+	{
+		"train_ngram_text" : "make",
+		"count" : 26286
+	},
+	{
+		"train_ngram_text" : "think",
+		"count" : 22551
+	},
+	{
+		"train_ngram_text" : "time",
+		"count" : 22147
+	},
+	{
+		"train_ngram_text" : "much",
+		"count" : 21563
+	},
+	{
+		"train_ngram_text" : "many",
+		"count" : 21311
+	},
+	{
+		"train_ngram_text" : "life",
+		"count" : 21188
+	},
+	{
+		"train_ngram_text" : "someone",
+		"count" : 20905
+	},
+	{
+		"train_ngram_text" : "use",
+		"count" : 20659
+	},
+	{
+		"train_ngram_text" : "way",
+		"count" : 19660
+	},
+	{
+		"train_ngram_text" : "know",
+		"count" : 18593
+	},
+	{
+		"train_ngram_text" : "work",
+		"count" : 18002
+	},
+	{
+		"train_ngram_text" : "take",
+		"count" : 17363
+	},
+	{
+		"train_ngram_text" : "us",
+		"count" : 17011
+	},
+	{
+		"train_ngram_text" : "ever",
+		"count" : 16753
+	},
+	{
+		"train_ngram_text" : "want",
+		"count" : 16656
+	},
+	{
+		"train_ngram_text" : "find",
+		"count" : 16553
+	},
+	{
+		"train_ngram_text" : "become",
+		"count" : 15904
+	},
+	{
+		"train_ngram_text" : "dont",
+		"count" : 15900
+	},
+	{
+		"train_ngram_text" : "without",
+		"count" : 15786
+	},
+	{
+		"train_ngram_text" : "im",
+		"count" : 15769
+	},
+	{
+		"train_ngram_text" : "whats",
+		"count" : 15526
+	},
+	{
+		"train_ngram_text" : "could",
+		"count" : 15236
+	},
+	{
+		"train_ngram_text" : "person",
+		"count" : 15215
+	},
+	{
+		"train_ngram_text" : "better",
+		"count" : 14989
+	},
+	{
+		"train_ngram_text" : "feel",
+		"count" : 14754
+	},
+	{
+		"train_ngram_text" : "world",
+		"count" : 14461
+	},
+	{
+		"train_ngram_text" : "year",
+		"count" : 14115
+	},
+	{
+		"train_ngram_text" : "possible",
+		"count" : 13825
+	},
+	{
+		"train_ngram_text" : "go",
+		"count" : 13774
+	},
+	{
+		"train_ngram_text" : "job",
+		"count" : 13737
+	},
+	{
+		"train_ngram_text" : "new",
+		"count" : 13705
+	},
+	{
+		"train_ngram_text" : "years",
+		"count" : 13069
+	},
+	{
+		"train_ngram_text" : "mean",
+		"count" : 12849
+	},
+	{
+		"train_ngram_text" : "used",
+		"count" : 12702
+	},
+	{
+		"train_ngram_text" : "quora",
+		"count" : 12693
+	},
+	{
+		"train_ngram_text" : "need",
+		"count" : 12422
+	},
+	{
+		"train_ngram_text" : "start",
+		"count" : 12347
+	},
+	{
+		"train_ngram_text" : "difference",
+		"count" : 12158
+	},
+	{
+		"train_ngram_text" : "first",
+		"count" : 12114
+	},
+	{
+		"train_ngram_text" : "different",
+		"count" : 11568
+	},
+	{
+		"train_ngram_text" : "money",
+		"count" : 11539
+	},
+	{
+		"train_ngram_text" : "learn",
+		"count" : 10989
+	}
+]

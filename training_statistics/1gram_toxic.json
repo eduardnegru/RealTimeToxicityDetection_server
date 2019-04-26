@@ -1,0 +1,202 @@
+[
+	{
+		"train_ngram_text" : "people",
+		"count" : 10799
+	},
+	{
+		"train_ngram_text" : "like",
+		"count" : 5258
+	},
+	{
+		"train_ngram_text" : "women",
+		"count" : 4797
+	},
+	{
+		"train_ngram_text" : "trump",
+		"count" : 4745
+	},
+	{
+		"train_ngram_text" : "would",
+		"count" : 4032
+	},
+	{
+		"train_ngram_text" : "dont",
+		"count" : 3506
+	},
+	{
+		"train_ngram_text" : "think",
+		"count" : 3480
+	},
+	{
+		"train_ngram_text" : "men",
+		"count" : 3376
+	},
+	{
+		"train_ngram_text" : "get",
+		"count" : 3358
+	},
+	{
+		"train_ngram_text" : "many",
+		"count" : 3178
+	},
+	{
+		"train_ngram_text" : "white",
+		"count" : 3047
+	},
+	{
+		"train_ngram_text" : "india",
+		"count" : 2965
+	},
+	{
+		"train_ngram_text" : "us",
+		"count" : 2894
+	},
+	{
+		"train_ngram_text" : "quora",
+		"count" : 2868
+	},
+	{
+		"train_ngram_text" : "muslims",
+		"count" : 2791
+	},
+	{
+		"train_ngram_text" : "indian",
+		"count" : 2614
+	},
+	{
+		"train_ngram_text" : "black",
+		"count" : 2445
+	},
+	{
+		"train_ngram_text" : "americans",
+		"count" : 2425
+	},
+	{
+		"train_ngram_text" : "sex",
+		"count" : 2148
+	},
+	{
+		"train_ngram_text" : "want",
+		"count" : 2138
+	},
+	{
+		"train_ngram_text" : "world",
+		"count" : 2129
+	},
+	{
+		"train_ngram_text" : "girls",
+		"count" : 2104
+	},
+	{
+		"train_ngram_text" : "indians",
+		"count" : 2088
+	},
+	{
+		"train_ngram_text" : "make",
+		"count" : 1918
+	},
+	{
+		"train_ngram_text" : "much",
+		"count" : 1882
+	},
+	{
+		"train_ngram_text" : "hate",
+		"count" : 1874
+	},
+	{
+		"train_ngram_text" : "one",
+		"count" : 1818
+	},
+	{
+		"train_ngram_text" : "liberals",
+		"count" : 1737
+	},
+	{
+		"train_ngram_text" : "chinese",
+		"count" : 1726
+	},
+	{
+		"train_ngram_text" : "good",
+		"count" : 1662
+	},
+	{
+		"train_ngram_text" : "country",
+		"count" : 1648
+	},
+	{
+		"train_ngram_text" : "even",
+		"count" : 1558
+	},
+	{
+		"train_ngram_text" : "muslim",
+		"count" : 1538
+	},
+	{
+		"train_ngram_text" : "american",
+		"count" : 1506
+	},
+	{
+		"train_ngram_text" : "know",
+		"count" : 1490
+	},
+	{
+		"train_ngram_text" : "feel",
+		"count" : 1444
+	},
+	{
+		"train_ngram_text" : "cant",
+		"count" : 1418
+	},
+	{
+		"train_ngram_text" : "really",
+		"count" : 1354
+	},
+	{
+		"train_ngram_text" : "america",
+		"count" : 1346
+	},
+	{
+		"train_ngram_text" : "say",
+		"count" : 1345
+	},
+	{
+		"train_ngram_text" : "best",
+		"count" : 1318
+	},
+	{
+		"train_ngram_text" : "president",
+		"count" : 1308
+	},
+	{
+		"train_ngram_text" : "believe",
+		"count" : 1301
+	},
+	{
+		"train_ngram_text" : "true",
+		"count" : 1275
+	},
+	{
+		"train_ngram_text" : "donald",
+		"count" : 1259
+	},
+	{
+		"train_ngram_text" : "still",
+		"count" : 1256
+	},
+	{
+		"train_ngram_text" : "ever",
+		"count" : 1235
+	},
+	{
+		"train_ngram_text" : "time",
+		"count" : 1233
+	},
+	{
+		"train_ngram_text" : "countries",
+		"count" : 1228
+	},
+	{
+		"train_ngram_text" : "jews",
+		"count" : 1207
+	}
+]

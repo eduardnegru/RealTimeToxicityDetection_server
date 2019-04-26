@@ -1,0 +1,202 @@
+[
+	{
+		"train_ngram_text" : "donald trump",
+		"count" : 1092
+	},
+	{
+		"train_ngram_text" : "white people",
+		"count" : 676
+	},
+	{
+		"train_ngram_text" : "black people",
+		"count" : 644
+	},
+	{
+		"train_ngram_text" : "united states",
+		"count" : 509
+	},
+	{
+		"train_ngram_text" : "many people",
+		"count" : 345
+	},
+	{
+		"train_ngram_text" : "trump supporters",
+		"count" : 324
+	},
+	{
+		"train_ngram_text" : "year old",
+		"count" : 323
+	},
+	{
+		"train_ngram_text" : "president trump",
+		"count" : 322
+	},
+	{
+		"train_ngram_text" : "hillary clinton",
+		"count" : 314
+	},
+	{
+		"train_ngram_text" : "even though",
+		"count" : 305
+	},
+	{
+		"train_ngram_text" : "people think",
+		"count" : 265
+	},
+	{
+		"train_ngram_text" : "chinese people",
+		"count" : 244
+	},
+	{
+		"train_ngram_text" : "north korea",
+		"count" : 230
+	},
+	{
+		"train_ngram_text" : "indian girls",
+		"count" : 216
+	},
+	{
+		"train_ngram_text" : "indian muslims",
+		"count" : 206
+	},
+	{
+		"train_ngram_text" : "north indians",
+		"count" : 204
+	},
+	{
+		"train_ngram_text" : "look like",
+		"count" : 197
+	},
+	{
+		"train_ngram_text" : "best way",
+		"count" : 192
+	},
+	{
+		"train_ngram_text" : "white men",
+		"count" : 190
+	},
+	{
+		"train_ngram_text" : "white women",
+		"count" : 188
+	},
+	{
+		"train_ngram_text" : "people like",
+		"count" : 183
+	},
+	{
+		"train_ngram_text" : "black men",
+		"count" : 182
+	},
+	{
+		"train_ngram_text" : "people hate",
+		"count" : 179
+	},
+	{
+		"train_ngram_text" : "people quora",
+		"count" : 176
+	},
+	{
+		"train_ngram_text" : "indian women",
+		"count" : 171
+	},
+	{
+		"train_ngram_text" : "south indians",
+		"count" : 171
+	},
+	{
+		"train_ngram_text" : "gun control",
+		"count" : 169
+	},
+	{
+		"train_ngram_text" : "years old",
+		"count" : 167
+	},
+	{
+		"train_ngram_text" : "dont want",
+		"count" : 164
+	},
+	{
+		"train_ngram_text" : "people say",
+		"count" : 162
+	},
+	{
+		"train_ngram_text" : "middle east",
+		"count" : 158
+	},
+	{
+		"train_ngram_text" : "indian men",
+		"count" : 156
+	},
+	{
+		"train_ngram_text" : "would happen",
+		"count" : 156
+	},
+	{
+		"train_ngram_text" : "women like",
+		"count" : 155
+	},
+	{
+		"train_ngram_text" : "dont like",
+		"count" : 145
+	},
+	{
+		"train_ngram_text" : "narendra modi",
+		"count" : 145
+	},
+	{
+		"train_ngram_text" : "dont know",
+		"count" : 141
+	},
+	{
+		"train_ngram_text" : "african americans",
+		"count" : 140
+	},
+	{
+		"train_ngram_text" : "questions quora",
+		"count" : 139
+	},
+	{
+		"train_ngram_text" : "feel like",
+		"count" : 138
+	},
+	{
+		"train_ngram_text" : "black women",
+		"count" : 135
+	},
+	{
+		"train_ngram_text" : "american people",
+		"count" : 124
+	},
+	{
+		"train_ngram_text" : "dont people",
+		"count" : 122
+	},
+	{
+		"train_ngram_text" : "girls like",
+		"count" : 122
+	},
+	{
+		"train_ngram_text" : "gay people",
+		"count" : 121
+	},
+	{
+		"train_ngram_text" : "men women",
+		"count" : 121
+	},
+	{
+		"train_ngram_text" : "indian people",
+		"count" : 121
+	},
+	{
+		"train_ngram_text" : "illegal immigrants",
+		"count" : 120
+	},
+	{
+		"train_ngram_text" : "people believe",
+		"count" : 119
+	},
+	{
+		"train_ngram_text" : "act like",
+		"count" : 118
+	}
+]

@@ -1,0 +1,202 @@
+[
+	{
+		"train_ngram_text" : "best way",
+		"count" : 6934
+	},
+	{
+		"train_ngram_text" : "would happen",
+		"count" : 3522
+	},
+	{
+		"train_ngram_text" : "year old",
+		"count" : 3410
+	},
+	{
+		"train_ngram_text" : "united states",
+		"count" : 3212
+	},
+	{
+		"train_ngram_text" : "high school",
+		"count" : 2659
+	},
+	{
+		"train_ngram_text" : "whats best",
+		"count" : 2640
+	},
+	{
+		"train_ngram_text" : "look like",
+		"count" : 2610
+	},
+	{
+		"train_ngram_text" : "computer science",
+		"count" : 2598
+	},
+	{
+		"train_ngram_text" : "feel like",
+		"count" : 2531
+	},
+	{
+		"train_ngram_text" : "get rid",
+		"count" : 2320
+	},
+	{
+		"train_ngram_text" : "would win",
+		"count" : 2310
+	},
+	{
+		"train_ngram_text" : "donald trump",
+		"count" : 2055
+	},
+	{
+		"train_ngram_text" : "many people",
+		"count" : 2053
+	},
+	{
+		"train_ngram_text" : "social media",
+		"count" : 2051
+	},
+	{
+		"train_ngram_text" : "would like",
+		"count" : 1979
+	},
+	{
+		"train_ngram_text" : "get job",
+		"count" : 1954
+	},
+	{
+		"train_ngram_text" : "even though",
+		"count" : 1919
+	},
+	{
+		"train_ngram_text" : "long take",
+		"count" : 1888
+	},
+	{
+		"train_ngram_text" : "years old",
+		"count" : 1669
+	},
+	{
+		"train_ngram_text" : "dont know",
+		"count" : 1530
+	},
+	{
+		"train_ngram_text" : "north korea",
+		"count" : 1493
+	},
+	{
+		"train_ngram_text" : "dont want",
+		"count" : 1484
+	},
+	{
+		"train_ngram_text" : "jee mains",
+		"count" : 1480
+	},
+	{
+		"train_ngram_text" : "best ways",
+		"count" : 1433
+	},
+	{
+		"train_ngram_text" : "major accomplishments",
+		"count" : 1427
+	},
+	{
+		"train_ngram_text" : "make money",
+		"count" : 1374
+	},
+	{
+		"train_ngram_text" : "much time",
+		"count" : 1301
+	},
+	{
+		"train_ngram_text" : "machine learning",
+		"count" : 1282
+	},
+	{
+		"train_ngram_text" : "much money",
+		"count" : 1235
+	},
+	{
+		"train_ngram_text" : "would give",
+		"count" : 1213
+	},
+	{
+		"train_ngram_text" : "people think",
+		"count" : 1211
+	},
+	{
+		"train_ngram_text" : "new york",
+		"count" : 1206
+	},
+	{
+		"train_ngram_text" : "pros cons",
+		"count" : 1200
+	},
+	{
+		"train_ngram_text" : "whats difference",
+		"count" : 1200
+	},
+	{
+		"train_ngram_text" : "best place",
+		"count" : 1160
+	},
+	{
+		"train_ngram_text" : "way get",
+		"count" : 1132
+	},
+	{
+		"train_ngram_text" : "best friend",
+		"count" : 1130
+	},
+	{
+		"train_ngram_text" : "real life",
+		"count" : 1129
+	},
+	{
+		"train_ngram_text" : "get admission",
+		"count" : 1111
+	},
+	{
+		"train_ngram_text" : "first time",
+		"count" : 1104
+	},
+	{
+		"train_ngram_text" : "mechanical engineering",
+		"count" : 1099
+	},
+	{
+		"train_ngram_text" : "good bad",
+		"count" : 1093
+	},
+	{
+		"train_ngram_text" : "tv show",
+		"count" : 1018
+	},
+	{
+		"train_ngram_text" : "different types",
+		"count" : 1009
+	},
+	{
+		"train_ngram_text" : "advice would",
+		"count" : 1009
+	},
+	{
+		"train_ngram_text" : "real estate",
+		"count" : 1007
+	},
+	{
+		"train_ngram_text" : "would take",
+		"count" : 985
+	},
+	{
+		"train_ngram_text" : "good idea",
+		"count" : 977
+	},
+	{
+		"train_ngram_text" : "get good",
+		"count" : 967
+	},
+	{
+		"train_ngram_text" : "best book",
+		"count" : 950
+	}
+]
