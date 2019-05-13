@@ -14,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.17.2",
+    "promise-mysql": "^3.3.1"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
