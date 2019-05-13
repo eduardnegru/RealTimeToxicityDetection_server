@@ -2,7 +2,7 @@
 
 const express = require('express');
 const app = express();
-const port = 3002;
+const port = 3001;
 const bodyParser = require('body-parser');
 const routes = require('./api/routes/route');
 const dashboard = require('./api/controllers/Dashboard');
@@ -26,10 +26,10 @@ var server = app.listen(port);
 const io = require('socket.io')(server);
 
 io.on('connection', socket => {
-	
+
 	let bFirstCall = true;
 	let nLastID = null;
-	
+
 	socket.on("toxic", strTimestamp => {
 		console.log("Toxic here");
 		this.toxicIntervalHandler = setInterval(async () => {
@@ -45,7 +45,7 @@ io.on('connection', socket => {
 			socket.emit("toxic_data", arrMessages);
 		}, 1500);
 	});
-	
+
 	socket.on("toxic_end", () => { console.log("ending"); clearInterval(this.toxicIntervalHandler);});
 
 	socket.on("not_toxic", strTimestamp => {
