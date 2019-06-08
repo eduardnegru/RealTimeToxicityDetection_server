@@ -14,7 +14,11 @@ module.exports = function(app) {
 	.post(user.signup);
 
 	// .get(auth.verifyToken, user.get)
-
 	app.route('/training_data_statistics')
+	// .get(auth.verifyToken, dashboard.training_data_statistics);
 	.get(dashboard.training_data_statistics);
+
+	app.route('/messages_get')
+	// .get(auth.verifyToken, dashboard.training_data_statistics);
+	.get(dashboard.messages_get);
  };

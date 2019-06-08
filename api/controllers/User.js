@@ -1,31 +1,35 @@
 'use strict';
 
+let mongoose = require('mongoose');
 let HttpStatus = require('http-status-codes');
 let bCrypt = require('bcrypt-nodejs');
 let jwt = require('jsonwebtoken');
-let User = require("../classes/User");
+let crypto = require("crypto");
+let userClass = require("../classes/User");
+
+exports.signup = signup;
+exports.login = login;
+exports.get = get;
 
 async function signup(req, res)
 {
 	try
 	{
-		let httpBodyData = JSON.parse(Object.keys(req.body)[0]);
+
+		let httpBodyData = req.body;
 		let salt = bCrypt.genSaltSync(10);
 		let hashedPassword = bCrypt.hashSync(httpBodyData.password , salt);
-		let userInstance = new User();
 
-		let objUser = await userInstance.create({
-			"user_email": httpBodyData.email,
-			"user_password_encrypted": hashedPassword,
-			"user_first_name": httpBodyData.firstname,
-			"user_last_name": httpBodyData.lastname,
-			"user_password_salt": salt
-		});
+		httpBodyData.password_encrypted = hashedPassword;
+		httpBodyData.password_salt = salt;
 
+		let objUser = new userClass.User();
+
+		let user = await objUser.create(httpBodyData);
 		const jwtToken = jwt.sign(
 			{
-				email: objUser.user_email,
-				id: objUser.user_id
+				email: user.email,
+				id: user._id
 			},
 			process.env.JWT_KEY,
 			{
@@ -33,11 +37,8 @@ async function signup(req, res)
 			}
 		);
 
-		res.status(HttpStatus.CREATED).json({
-			message: "Signup successful",
-			user: objUser,
-			token: jwtToken
-		});
+		res.cookie("jwt", jwtToken);
+		res.status(HttpStatus.CREATED).send(user);
 	}
 	catch(error)
 	{
@@ -51,55 +52,59 @@ async function signup(req, res)
 
 async function login(req, res)
 {
+	let UserModel = mongoose.model('User');
+	let user = await UserModel.findOne({email: req.body.email});
+
+	if (user === null)
+	{
+		res.status(HttpStatus.BAD_REQUEST);
+		res.json({
+			message: "User not found"
+		});
+		return;
+	}
+
+	let hash = bCrypt.hashSync(user.password, user.password_salt);
+	let compareResult = bCrypt.compareSync(req.body.password, hash);
+
+	if(compareResult)
+	{
+		const jwtToken = jwt.sign(
+			{
+				email: user.email,
+				id: user._id
+			},
+			process.env.JWT_KEY,
+			{
+				expiresIn: "1d"
+			}
+		);
+
+		res.cookie("jwt", jwtToken);
+		res.status(HttpStatus.OK).json({
+			message: "Authentification successful",
+		});
+	}
+	else
+	{
+		res.status(HttpStatus.UNAUTHORIZED);
+		res.json({
+			message: "Authentication failed"
+		});
+	}
+}
+
+async function get(req, res)
+{
 	try
 	{
-		let httpBodyData = JSON.parse(Object.keys(req.body)[0]);
-		let userInstance = new User();
-		let objUser = await userInstance.get(httpBodyData.email, true);
-		let strPassword = httpBodyData.password;
-				
-		if (objUser.length == 0)
-		{
-		
-			res.status(HttpStatus.UNAUTHORIZED).json({
-				message: "Authentification failed. User not found"
-			});
-		
-			return;
-		}
-
-		let hash = bCrypt.hashSync(objUser.user_password_encrypted, objUser.user_password_salt);
-		let compareResult = bCrypt.compareSync(strPassword, objUser.user_password_encrypted);
-
-		if(compareResult)
-		{
-			const jwtToken = jwt.sign(
-				{
-					email: objUser.user_email,
-					id: objUser.user_id
-				},
-				process.env.JWT_KEY,
-				{
-					expiresIn: "1d"
-				}
-			);
-
-			res.status(HttpStatus.OK).json({
-				message: "Authentification successful",
-				token: jwtToken
-			});
-		}
-		else
-		{
-			res.status(HttpStatus.UNAUTHORIZED).json({
-				message: "Authentification failed. Password incorrect."
-			});
-		}
-
+		let objUser = new userClass.User();
+ 		let users = await objUser.get(JSON.parse(req.body.emails));
+		res.status(HttpStatus.OK);
+		res.json(users);
 	}
 	catch(error)
 	{
-		console.log(error);
 		res.status(HttpStatus.BAD_REQUEST);
 		res.json({
 			message: error.message
@@ -107,7 +112,3 @@ async function login(req, res)
 	}
 
 }
-
-
-exports.signup = signup;
-exports.login = login;
