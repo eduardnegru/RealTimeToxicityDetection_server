@@ -56,5 +56,13 @@ async function messages_get(req, res)
 	}
 }
 
+async function server_status_get(req, res)
+{
+	res.status(HttpStatus.OK);
+	res.json("It works!");
+}
+
+
 exports.training_data_statistics = training_data_statistics;
 exports.messages_get = messages_get;
+exports.server_status_get = server_status_get;

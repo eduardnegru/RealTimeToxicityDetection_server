@@ -21,4 +21,7 @@ module.exports = function(app) {
 	app.route('/messages_get')
 	// .get(auth.verifyToken, dashboard.training_data_statistics);
 	.get(dashboard.messages_get);
+
+	app.route('/')
+	.get(dashboard.server_status_get);
  };
