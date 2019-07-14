@@ -38,6 +38,7 @@ async function signup(req, res)
 		);
 
 		res.cookie("jwt", jwtToken);
+		user["jwt"] = jwtToken;
 		res.status(HttpStatus.CREATED).send(user);
 	}
 	catch(error)
@@ -83,6 +84,7 @@ async function login(req, res)
 		res.cookie("jwt", jwtToken);
 		res.status(HttpStatus.OK).json({
 			message: "Authentification successful",
+			jwt: jwtToken
 		});
 	}
 	else
